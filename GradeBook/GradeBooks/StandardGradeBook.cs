@@ -9,9 +9,9 @@ namespace GradeBook.GradeBooks
     {
        
 
-        public StandardGradeBook () : base(Name)
+        public StandardGradeBook (string name) : base(name)
         {
-            
+            Type = Enums.GradeBookType.Standard;
         }
     }
 }
